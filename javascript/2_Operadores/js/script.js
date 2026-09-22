@@ -16,7 +16,6 @@ console.log(5+(4*2));
 // 3 specal number
 
 console.log(typeof Infinity);
-
 console.log(typeof -Infinity);
 
 console.log(12 * 'asd');
@@ -54,7 +53,6 @@ console.log(`Podemos executar qualquer coisa aqui ${console.log("teste")}`);
 console.log(true);
 
 console.log(5 > 20);
-
 console.log(30 > 10);
 
 console.log( typeof false);
@@ -76,3 +74,34 @@ console.log(9 === "9")
 
 console.log(9 != "9")
 console.log(9 !== "9")
+
+// 11 Operadores logicos
+
+console.log(true && true)
+console.log(true && false)
+
+console.log(5 > 2 && 2 < 10)
+
+console.log(5 > 2 && "Matheus" === 1)
+console.log(5 > 2 || "Matheus" === 1)
+
+console.log(5 < 2 || 5 > 100)
+console.log(!true)
+console.log(!5 > 2)
+
+// 12 empty values 
+
+console.log(typeof null, typeof undefined)
+console.log(null === undefined)
+console.log (null == undefined)
+
+console.log(null == false)
+console.log(undefined == false) 
+
+// 13 mudança de tipos
+
+console.log(5*null)
+console.log("TESTE" * "opa")
+
+console.log("10" + 1)
+console.log("10" - 1)
